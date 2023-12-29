@@ -6,12 +6,11 @@ React+TypeScriptなWebアプリで、R3Fのtutorial17。(Environmentで簡単背
 
 # ポイント
 Environmentを埋め込むだけ。ものすごい簡単!!
-自前の背景を埋め込みたい時は、下記を実行する。
-
 ```ts:Environment
 <Environment preset="forest" background />	
 ```
 
+自前の背景を埋め込みたい時は、下記を実行する。
 ```ts:Environment
 <Environment files="./img/venice_sunset_1k.hdr" background />
 ```
